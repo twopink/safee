@@ -24,20 +24,9 @@
 # deprecated, support for older versions
 .workspace/traceexplorer.xml
 
-# Custom file formats and test dependencies
-#  * you can manage your artifacts also with TEST-GUIDE (https://www.test-guide.info) and reference them via Playbooks
-*.arxml
-*.a2l
-*.dbc
 *.hex
 *.s19
-[tT]estdata
-[tT]estdaten
 
-# Test results and test execution related content
-#   * Git is not intended to store and provide test results for all iterations
-#   * We recommend to use TEST-GUIDE (https://www.test-guide.info) for the test report management
-TestReports
 
 # Report generators and templates
 #  * if you want to provide (f.e.) your own report generators exclude the directory here and ignore only the
